@@ -1,0 +1,7 @@
+version: "3.3"
+
+services:
+  front_end:
+    image: drehg/awstest1:latest
+    ports:
+      - "80:80"
